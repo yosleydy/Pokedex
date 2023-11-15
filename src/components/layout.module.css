@@ -1,0 +1,12 @@
+.children{
+   overflow-y: scroll;
+   height: 420px;
+}
+.childrenresponsive{
+   position: relative;
+}
+
+
+@media (max-width: 400px) {
+   .children { height: 570px; }
+ }
